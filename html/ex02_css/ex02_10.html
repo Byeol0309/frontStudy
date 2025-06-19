@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 형제 선택자와 인접 형제선택자 -->
+<!-- 
+형제선택자 Sibling Selector:
+		   선택자 ~ 선택자{속성: 값;}
+		   선택자A 뒤에 위치하는 선택자B를 모두 선택한다.
+
+인접형제 선택자 Adjacent Sibling Selector:
+				선택자 + 선택자{속성: 값;}
+				선택자A 바로 뒤에 위치하는 선택자B를 선택한다.
+ -->
+ 	<style>
+ 	h1+h2{  color: red;  }
+ 	h1~h2{  background-color : pink;  }
+ 	h1~h2:hover{  color: yellow;  }
+ 	</style>
+ 
+ 	<h1>Have a nice day</h1>
+ 	<h2>Have a nice day</h2>
+ 	<h2>Have a nice day</h2>
+ 	<h3>Have a nice day</h3>
+ 	<h2>Have a nice day</h2>
+
+</body>
+</html>

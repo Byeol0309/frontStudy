@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 가상 클래스 선택자로 제목 꾸미기 -->
+
+	<style>
+	h1:before{
+		content:"♬";
+		color:blue;
+	}
+	h1:after{
+	content: "♬";
+	color:pink;
+	}
+	p:first-line{
+	/* tag:first-letter{속성: 값;} 태그의 첫번째 문자를 선택한다 */
+	/* tag:first-line{속성: 값;} 태그의 첫번째 라인을 선택한다 */
+	  font-size: 25px;
+	  background-color: gray;
+	  color: white;
+	  font-weight: bold;
+	}
+	</style>
+
+	<h1>Famous Saying</h1>
+	<p> The world is a beautiful book, but of little use to him who cannot read it.</p>
+
+
+</body>
+</html>
