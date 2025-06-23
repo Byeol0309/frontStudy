@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+<title>무드뮤즈</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css"
+	rel="stylesheet" />
+<link href="css/styles.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Dongle&family=Gowun+Batang&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+<script src="./scripts.js"></script>
+<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+	crossorigin="anonymous"></script>
+	<style>
+  .emotion-text {
+    font-family: 'Gowun Batang', serif;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    text-align: center;
+  }
+</style>
+</head>
+<body class="sb-nav-fixed">
+	<nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+		<!-- Navbar Brand-->
+		<a class="navbar-brand ps-3" href="index.html">MoodMuse</a>
+		<!-- Sidebar Toggle-->
+		<button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0"
+			id="sidebarToggle" href="#!">
+			<i class="fas fa-bars"></i>
+		</button>
+		<!-- Navbar Search-->
+		<form
+			class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+			<div class="input-group">
+				<input class="form-control" type="text" placeholder="Search for..."
+					aria-label="Search for..." aria-describedby="btnNavbarSearch" />
+				<button class="btn btn-primary" id="btnNavbarSearch" type="button">
+					<i class="fas fa-search"></i>
+				</button>
+			</div>
+		</form>
+
+		<!-- Navbar-->
+		<ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+			<li class="nav-item dropdown"><a
+				class="nav-link dropdown-toggle" id="navbarDropdown" href="#"
+				role="button" data-bs-toggle="dropdown" aria-expanded="false"><i
+					class="fas fa-user fa-fw"></i></a>
+				<ul class="dropdown-menu dropdown-menu-end"
+					aria-labelledby="navbarDropdown">
+					<!-- <li><a class="dropdown-item" href="#!">로그인</a></li> -->
+					<li><a class="dropdown-item" href="#!">마이페이지</a></li>
+					<li><hr class="dropdown-divider" /></li>
+					<li><a class="dropdown-item" href="#!">setting</a></li>
+				</ul></li>
+		</ul>
+	</nav>
+	<div id="layoutSidenav">
+		<div id="layoutSidenav_nav">
+			<nav class="sb-sidenav accordion sb-sidenav-dark"
+				id="sidenavAccordion">
+				<div class="sb-sidenav-menu">
+					<div class="nav">
+						<div class="sb-sidenav-menu-heading">메뉴</div>
+						<a class="nav-link" href="index.html">
+							<div class="sb-nav-link-icon">
+								<i class="fas fa-tachometer-alt"></i>
+							</div> Palette
+						</a>
+						
+						<a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
+							data-bs-target="#collapsePages" aria-expanded="false"
+							aria-controls="collapsePages">
+							<div class="sb-nav-link-icon">
+								<i class="fas fa-book-open"></i>
+							</div> Pages
+							<div class="sb-sidenav-collapse-arrow">
+								<i class="fas fa-angle-down"></i>
+							</div>
+						</a>
+						<div class="collapse" id="collapsePages"
+							aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+							<nav class="sb-sidenav-menu-nested nav accordion"
+								id="sidenavAccordionPages">
+								<a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
+									data-bs-target="#pagesCollapseAuth" aria-expanded="false"
+									aria-controls="pagesCollapseAuth"> 회원페이지
+									<div class="sb-sidenav-collapse-arrow">
+										<i class="fas fa-angle-down"></i>
+									</div>
+								</a>
+								<div class="collapse" id="pagesCollapseAuth"
+									aria-labelledby="headingOne"
+									data-bs-parent="#sidenavAccordionPages">
+									<nav class="sb-sidenav-menu-nested nav">
+										<a class="nav-link" href="login.html">로그인</a> <a
+											class="nav-link" href="register.html">회원가입</a> <a
+											class="nav-link" href="password.html">비밀번호찾기</a>
+									</nav>
+								</div>
+
+
+							</nav>
+						</div>
+						
+					</div>
+				</div>
+				<div class="sb-sidenav-footer">
+					<div class="small">Logged in as:</div>
+					MoodMuse
+				</div>
+			</nav>
+		</div>
+		<div id="layoutSidenav_content">
+			<main>
+			<div class = "emotion-text">
+				<div class="container-fluid px-4">
+					<h1 class="mt-4">Soft Light in the Dark</h1>
+					<ol class="breadcrumb mb-4">
+						<li class="breadcrumb-item"><a href="index.html">MoodMuse</a></li>
+						<li class="breadcrumb-item active">지금 이순간도 지나가요</li>
+					</ol>
+					<div class="card mb-4">
+						<div class="card-body">
+							
+
+							<div style="text-align: center;">
+								<img src="image/StarryNight.jpg">
+								<p>
+									<br>Vincent Willem van Gogh, [ Starry Night Over the Rhone
+									] 1888 <br> 출처 : 데일리아트 Daily Art(https://www.d-art.co.kr)
+								</p>
+							</div>
+
+							지금 마음이 많이 무겁고, 설명하기 어려운 슬픔이 가슴 한켠에 자리하고 있을지도 몰라요. 괜찮아요. 그 슬픔은 절대
+							잘못된 감정이 아니에요. 눈물은 감정을 씻어내는 방법 중 하나일 뿐이에요. 참지 않아도 되고, 무리해서 밝게 보이지
+							않아도 괜찮아요. 이곳에서는 조용히 머물러도 괜찮고, 아무 말 없이 앉아 있어도 괜찮아요. 지금 이 순간조차도 언젠가
+							지나갈 거예요. 그러니 지금은 그저 스스로를 조용히 안아주세요. 당신이 지나온 날들만큼, 앞으로도 충분히 잘 걸어갈
+							수 있어요.
+							</p>
+						</div>
+						
+						</div>
+					</div>
+					<div class="card mb-4">
+						<div class="card-body">
+							하단에 내용넣기
+							<div style="text-align: center; margin-top: 20px;">
+   <h5>🎵 슬픔을 담은 선율: Debussy – Clair de Lune</h5>
+   <iframe
+      src="https://www.youtube.com/embed/WNcsUNKlAKw?autoplay=1&mute=1&controls=1&modestbranding=1"
+      width="300" height="40"
+      style="border: none; overflow: hidden;"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+   </iframe>
+   <p style="margin-top: 5px; font-size: 0.85em; color: #666;">※ 자동 재생되며, 음소거 상태로 시작합니다.</p>
+							
+						</div>
+					</div>
+				</div>
+				</div>
+			</main>
+			<footer class="py-4 bg-light mt-auto">
+				<div class="container-fluid px-4">
+					<div
+						class="d-flex align-items-center justify-content-between small">
+						<div class="text-muted">Copyright &copy; MoodMuse 2025</div>
+						<div>
+							<a href="#">Privacy Policy</a> &middot; <a href="#">Terms
+								&amp; Conditions</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+		crossorigin="anonymous"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>

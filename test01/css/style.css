@@ -1,0 +1,76 @@
+@charset "UTF-8";
+body {
+      background: linear-gradient(to right, #cce2f3, #f5e1f5);
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+    
+    .container-box {
+  max-width: 700px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #5a8aa0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn-main {
+  background-color: #b2d3c2;
+  color: #fff;
+  border: none;
+}
+
+.btn-main:hover {
+  background-color: #9acbb4;
+}
+
+    .mypage-container {
+      max-width: 600px;
+      margin: 50px auto;
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .mypage-title {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #5a8aa0;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .info-label {
+      font-weight: 600;
+      color: #4c6f91;
+    }
+
+    .info-value {
+      color: #333;
+      font-size: 1.1rem;
+    }
+
+    .btn-logout,
+    .btn-home {
+      background-color: #b2d3c2;
+      color: #fff;
+      border: none;
+    }
+
+    .btn-logout:hover,
+    .btn-home:hover {
+      background-color: #9acbb4;
+    }
+
+    .card-shadow {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      border: none;
+    }
