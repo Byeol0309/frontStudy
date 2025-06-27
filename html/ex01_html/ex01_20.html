@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<!-- select와 textarea태그 -->
+<!-- select와 option태그 속성
+
+name="입력 변수명"   서버에 전송할 양식의 이름
+size="보일항목개수"  드롭다운메뉴의 줄수를지정
+multiple 			 메뉴를 다중으로 선택하는 경우에 사용
+value="데이터"		<option>에서 사용하는 데이터
+selected			기본값으로 선택할 데이터를 지정 -->
+
+<!-- textarea 태그 속성 -->
+<!-- 
+cols 	 칼럼의 수
+rows	 행의 수
+name 	 요소의 이름을 지정
+readonly 읽기 전용으로 설정
+disabled 클릭할 수도 없고 수정도 불가
+ --> 
+  <form>
+  <table border="0">
+	<tr>
+	 <td>컴퓨터 운영체제</td>
+	 <td>
+	   <select name="OS" size="3" multiple>
+		<option value="windows">윈도우7</option>
+		<option value="linux">리눅스</option>
+		<option value="solrais">솔라리스</option>
+		<option value="mac">맥</option>
+	   </select>
+	 </td>
+	</tr>
+	<tr>
+	 <td>기타사항</td>
+	 <td>
+	   <textarea row="7" cols="30" name="exam"></textarea>
+	 </td>
+	</tr>
+  </table>
+  </form>
+
+
+</body>
+</html>

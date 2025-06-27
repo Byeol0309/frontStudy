@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+		<title>클래스 조작</title>
+		<style>
+			#box {
+				width: 100px; height: 100px;
+				background-color: red;
+			}
+			
+			#box.hover {
+				background-color: blue;
+				border-radius: 50px;
+			}
+		
+		</style>
+		
+		<script src="https://code.jquery.com/jquery-3.7.1.js" 
+			integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" 
+			crossorigin="anonymous"></script>
+		<script>
+			$(document).ready(function() {
+				$('#box').hover(function () {
+					
+					//스타일을 변경한다.
+					$('#box').addClass('hover');
+				}, function () {
+					
+					//스타일을 변경한다.
+					$('#box').removeClass('hover');
+				});
+			});
+		
+		</script>
+		
+</head>
+<body>
+	<div id ="box"></div>
+</body>
+</html>

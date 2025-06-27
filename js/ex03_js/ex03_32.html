@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>브라우저객체 location</title>
+	<script>
+		var t=new Date();
+		document.write(t.getHours()+":"+t.getMinutes()+":"+t.getSeconds());
+		setInterval(function(){
+			location.reload(); /* reload() 화면을 새로고침 */
+		},1000);
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>

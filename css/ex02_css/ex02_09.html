@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 후손 선택자와 자식 선택자의 이해 -->
+<!-- 
+후손(하위)선택자 Descendant Selector:
+				 선택자 선택자{속성: 값;} Tag1 Tag2 태그1의 후손인 Tag2 태그를 선택한다.
+
+자식 선택자 Child Selector:
+				 선택자 > 선택자{속성: 값;}
+				 손자 태그는 해당 안된다.
+ -->
+ 
+ 	<style>
+ 	.header h3{ color: pink; }
+ 	.footer > h3{ color: red; }
+ 	</style>
+ 
+ 	<div class="header">
+ 	  <h3>test1</h3>
+ 	  <div class="hea">
+ 	    <h3>test2</h3>
+ 	  </div>
+ 	</div>
+ 	
+ 	<div class="footer">
+ 	  <h3>test3</h3>
+ 	  <div class="foo">
+ 	     <h3>test4</h3>
+ 	  </div>
+ 	</div>
+ 
+ 
+ 
+ 
+</body>
+</html>

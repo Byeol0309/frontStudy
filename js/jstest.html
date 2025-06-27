@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>자바스크립트삽입 테스트</title>
+	<script>
+		document.write("Hello World<br>");
+		document.write("헤더 안쪽에 스크립트작성용<br>");
+		document.write("System.out.print과 같은 동작을 한다.");
+		alert("환영합니다.");
+		/* 경고창을 띄우는 메서드 */	
+	</script>
+	<script src="../js/script.js">
+/*   다른 위치인 경우에는 ../폴더명/파일명   */
+	</script>
+</head>
+<body>
+<script>
+		document.write("Hello World<br>");
+		document.write("바디 안쪽의 스크립트작성<br>");
+		document.write("System.out.print과 같은 동작을 한다.");
+		alert("환영합니다."); 
+		/* 헤더의 스크립트가 먼저 출력된다. 위에서부터 아래로부터 출력 */	
+	</script>
+</body>
+</html>
